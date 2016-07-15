@@ -8,6 +8,10 @@ public class Certification {
     private String name;
     private String version;
 
+    public static void main(String... args){
+        System.out.println("This is my first print from command line!!");
+        System.out.println(args[0]);
+    }
     /*
     Multi line comment
      */
