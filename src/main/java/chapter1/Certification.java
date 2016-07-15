@@ -1,7 +1,7 @@
 package chapter1;
 
 /**
- * Created by Sandeep on 15-07-2016.
+ * Created by Sandeep Dongapure on 15-07-2016.
  */
 public class Certification {
 
@@ -9,20 +9,22 @@ public class Certification {
     private String version;
 
     /*
-    sd,nfkjsdnf
-    zs,jdnfjsndf
-    szdkjfklsjdfkl
-    ,jhzcjh,dnfil,mn s,dnflkjdfk
+    Multi line comment
      */
     public String getName() {
         return name;
     }
 
-    /*//cxvmb*/
+    /*//simple setter*/
     public void setName(String name) {
         this.name = name;
     }
 
+    /**
+     * Javadoc type comment
+     *
+     * @return
+     */
     public String getVersion() {
         return version;
     }
